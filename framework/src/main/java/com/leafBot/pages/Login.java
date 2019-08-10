@@ -7,9 +7,9 @@ import com.leafBot.testng.api.base.ProjectSpecificMethods;
 public class Login extends ProjectSpecificMethods{
 	
 	public Login enterUsername(String data) {
-		WebElement ele = locateElement("id", "UserName");
+		WebElement ele1 = locateElement("id", "UserName");
 		//WebElement element = driver.findElementById("UserName");
-		clearAndType(ele, data);
+		clearAndType(ele1, data);
 		return this;
 
 	}
